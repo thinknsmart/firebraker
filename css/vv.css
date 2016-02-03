@@ -1,0 +1,23 @@
+body {
+  background-color: #E2E2E2;
+  padding-top: 50px;
+}
+
+.main-block {
+    background-color: #fff;
+}
+
+.text-overlay {
+  display: block; 
+  position: absolute; 
+  top: 25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.white-line {
+  border-color: #fff;
+}
