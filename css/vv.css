@@ -4,12 +4,12 @@ body {
 }
 
 .main-block {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .text-overlay {
-  display: block; 
-  position: absolute; 
+  display: block;
+  position: absolute;
   top: 25px;
   left: 0;
   right: 0;
@@ -18,6 +18,14 @@ body {
   margin: 0 auto;
 }
 
+.navbar-brand {
+  padding-top: 4px;
+}
+
 .white-line {
   border-color: #fff;
+}
+
+html {
+    overflow-y: scroll; 
 }
