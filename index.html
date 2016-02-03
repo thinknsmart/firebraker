@@ -79,7 +79,12 @@
       <div class="row">
         <div class="col-md-6">
           <h3>See it in action!</h3>
-          <video id="sampleMovie" width="100%" src="assets/fire-test.webm" controls></video>
+          <video controls poster="assets/fire-test.jpg" width="100%" controls="controls">
+           <source src="assets/fire-test.webm" type="video/webm" />
+           <source src="assets/fire-test.mp4" type="video/mp4" />
+           <source src="assets/fire-test.ogv" type="video/ogg" />
+           <p>Video not supported on your platform.</p>
+          </video>
         </div>
 
         <div class="col-md-6">
